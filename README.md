@@ -11,15 +11,23 @@ The project fulfills the following requirements:
 4. Calculate the Volume Weighted Stock Price based on trades in the past 15 minutes.
 5. Calculate the GBCE All Share Index using the geometric mean of prices for all stocks.
 
+## API Endpoints
+
+- `POST /calculate_dividend_yield`: Calculate the dividend yield for a given stock and price.
+- `POST /pe_ratio`: Calculate the P/E Ratio for a given stock and price.
+- `POST /record_trade`: Record a trade with timestamp, quantity, buy/sell indicator, and traded price.
+- `POST /volume_weighted_stock_price`: Calculate the Volume Weighted Stock Price based on trades in the past 15 minutes.
+- `GET /calculate_gbce_all_share_index`: Calculate the GBCE All Share Index.
+  
 
 
 
 **Installation**
 
-The commands below install the application and its dependencies:
+The commands below to install the application and its dependencies:
 
-$ git clone https://github.com/nirajkmr/stockApp.git
-$ cd stockApp
-$ python3 -m venv .venv
-$ .venv\Scripts\activate (windows) / . .venv/bin/activate (macOS/Linux)
-(venv) pip install -r requirements.txt 
+    $ git clone https://github.com/nirajkmr/stockApp.git
+    $ cd stockApp
+    $ python3 -m venv .venv
+    $ .venv\Scripts\activate (windows) / . .venv/bin/activate (macOS/Linux)
+    (venv) pip install -r requirements.txt 
