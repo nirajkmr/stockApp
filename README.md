@@ -36,3 +36,17 @@ The commands below to install the application and its dependencies:
 
 1. Once the installation is completed, Run the application by executing `python run.py` in your terminal.
 2. The application will start in development mode at `http://localhost:8000/`.
+
+## Data Storage
+
+For simplicity, the application uses a global dictionary `stocks_data` to store stock information and trades. In a production environment, this should be replaced with a proper database. Also, I have pushed the business logic in the models file. This can be organized way better if we use the repository pattern.
+Just now I have tried covering up the basic one.
+
+## Unit Tests
+
+Unit tests for the application are available in the `TestStockMarketApp.py` file. To run the tests, execute the following command:
+
+      $ python -m unittest tests/TestStockMarketApp.py
+
+## I have uploaded the API collection and Screenshot of the output in the mail attachment.
+
