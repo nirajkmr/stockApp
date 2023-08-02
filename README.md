@@ -31,3 +31,8 @@ The commands below to install the application and its dependencies:
     $ python3 -m venv .venv
     $ .venv\Scripts\activate (windows) / . .venv/bin/activate (macOS/Linux)
     (venv) pip install -r requirements.txt 
+
+## Running the Application
+
+1. Once the installation is completed, Run the application by executing `python run.py` in your terminal.
+2. The application will start in development mode at `http://localhost:8000/`.
